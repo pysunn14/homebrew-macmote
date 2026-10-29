@@ -1,8 +1,8 @@
 class Macmote < Formula
   desc "Phone remote for your Mac, with Face ID approval for sudo"
   homepage "https://github.com/pysunn14/macmote"
-  url "https://github.com/pysunn14/macmote/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "f659a8c247a32599fb4d7954e7cc540efefba29c77922066413e30735d5d2c2a"
+  url "https://github.com/pysunn14/macmote/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "78955ff3ce24dd3b07d5c64ab08026068041d964a6ba35cee5407a2932987cb6"
   license "MIT"
   head "https://github.com/pysunn14/macmote.git", branch: "main"
 
