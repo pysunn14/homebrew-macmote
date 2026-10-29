@@ -29,7 +29,7 @@ class Macmote < Formula
 
   test do
     assert_match "macmote #{version}", shell_output("#{bin}/macmote --version")
-    assert_predicate libexec/"build/pam_macmote.so", :exist?
+    assert_path_exists libexec/"build/pam_macmote.so"
     assert_match "volume", shell_output("#{bin}/macmote actions")
   end
 end
